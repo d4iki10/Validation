@@ -1,0 +1,247 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+div,
+li {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Noto Serif JP", serif;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, 0.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.section_inner {
+  padding: 50px 10% 30px;
+}
+
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: "Noto Serif JP", serif;
+  font-weight: bold;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.key h1 {
+  font-size: 2.5rem;
+}
+
+.section_title {
+  font-family: "Noto Serif JP", serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu_title {
+  display: inline-block;
+  font-family: "Noto Serif JP", serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.coffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.concept_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.concept_section p {
+  width: 60%;
+}
+
+.concept_section img {
+  width: 35%;
+}
+
+.section_menu {
+  background: url(../images/sample_menu_bg.jpg) no-repeat bottom;
+  background-size: 100%;
+}
+
+.recommended_menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.recommended_menu_item {
+  width: 49%;
+  display: flex;
+}
+
+.recommended_menu_item img {
+  width: 55%;
+  height: 300px;
+}
+
+.pancakes_menu {
+  width: 45%;
+  background-color: #fff;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pancakes_menu h2 {
+  font-family: "Noto Serif JP", serif;
+}
+
+.pancakes_price {
+  text-align: right;
+}
+
+.coffee_menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.coffee_menu_item {
+  width: 49%;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.coffee_name_price {
+  width: 80%;
+  padding: 8px;
+}
+
+.coffee_name_price h2 {
+  font-family: "Noto Serif JP", serif;
+  font-size: 20px;
+}
+
+.coffee_name_price p {
+  text-align: left;
+}
+
+.info {
+  display: flex;
+}
+
+.info dt {
+  width: 80px;
+}
+
+.frame_area {
+  width: 100%;
+  height: 400px;
+}
+
+.frame_child {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  background: #251e19;
+  height: 75px;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer_nav {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_nav a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.footer_logo {
+  width: 80px;
+}
+
+.footer_right {
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+}
